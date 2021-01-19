@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/HichemSaidi/Hichemsaidi/static/css/main.5b01b398.chunk.css",
-    "main.js": "/HichemSaidi/Hichemsaidi/static/js/main.de6ee9a4.chunk.js",
-    "main.js.map": "/HichemSaidi/Hichemsaidi/static/js/main.de6ee9a4.chunk.js.map",
-    "runtime-main.js": "/HichemSaidi/Hichemsaidi/static/js/runtime-main.d68fd919.js",
-    "runtime-main.js.map": "/HichemSaidi/Hichemsaidi/static/js/runtime-main.d68fd919.js.map",
-    "static/js/2.da5d3252.chunk.js": "/HichemSaidi/Hichemsaidi/static/js/2.da5d3252.chunk.js",
-    "static/js/2.da5d3252.chunk.js.map": "/HichemSaidi/Hichemsaidi/static/js/2.da5d3252.chunk.js.map",
-    "static/js/3.e340ec48.chunk.js": "/HichemSaidi/Hichemsaidi/static/js/3.e340ec48.chunk.js",
-    "static/js/3.e340ec48.chunk.js.map": "/HichemSaidi/Hichemsaidi/static/js/3.e340ec48.chunk.js.map",
-    "index.html": "/HichemSaidi/Hichemsaidi/index.html",
-    "static/css/main.5b01b398.chunk.css.map": "/HichemSaidi/Hichemsaidi/static/css/main.5b01b398.chunk.css.map",
-    "static/js/2.da5d3252.chunk.js.LICENSE.txt": "/HichemSaidi/Hichemsaidi/static/js/2.da5d3252.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/HichemSaidi/Hichemsaidi/static/media/logo.6ce24c58.svg"
+    "main.css": "/HichemSaidi/layersofcode/static/css/main.5b01b398.chunk.css",
+    "main.js": "/HichemSaidi/layersofcode/static/js/main.de6ee9a4.chunk.js",
+    "main.js.map": "/HichemSaidi/layersofcode/static/js/main.de6ee9a4.chunk.js.map",
+    "runtime-main.js": "/HichemSaidi/layersofcode/static/js/runtime-main.7861ded3.js",
+    "runtime-main.js.map": "/HichemSaidi/layersofcode/static/js/runtime-main.7861ded3.js.map",
+    "static/js/2.da5d3252.chunk.js": "/HichemSaidi/layersofcode/static/js/2.da5d3252.chunk.js",
+    "static/js/2.da5d3252.chunk.js.map": "/HichemSaidi/layersofcode/static/js/2.da5d3252.chunk.js.map",
+    "static/js/3.e340ec48.chunk.js": "/HichemSaidi/layersofcode/static/js/3.e340ec48.chunk.js",
+    "static/js/3.e340ec48.chunk.js.map": "/HichemSaidi/layersofcode/static/js/3.e340ec48.chunk.js.map",
+    "index.html": "/HichemSaidi/layersofcode/index.html",
+    "static/css/main.5b01b398.chunk.css.map": "/HichemSaidi/layersofcode/static/css/main.5b01b398.chunk.css.map",
+    "static/js/2.da5d3252.chunk.js.LICENSE.txt": "/HichemSaidi/layersofcode/static/js/2.da5d3252.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/HichemSaidi/layersofcode/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d68fd919.js",
+    "static/js/runtime-main.7861ded3.js",
     "static/js/2.da5d3252.chunk.js",
     "static/css/main.5b01b398.chunk.css",
     "static/js/main.de6ee9a4.chunk.js"
