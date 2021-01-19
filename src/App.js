@@ -1,24 +1,48 @@
 import logo from './logo.svg';
 import './App.css';
 
+import Cover from './components/Cover.js'
+import Contact from './components/Contact.js'
+import Projects from './components/Projects.js'
+import About from './components/About.js'
+
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom"
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Router>
+    <div className='layout'>
+      <div class='nav__list'>
+                <ul>
+                    <li><Link className="link" to="/"><button className="btn_square"></button></Link></li>
+                    <li><Link className="link" to="/"><p>WORK</p></Link></li>
+                    <li><Link className="link" to="/about">ABOUT</Link></li>
+                    <li><Link className="link" to="/projects">PROJECTS</Link></li>
+                    <li><Link className="link" to="/contact">CONTACT</Link></li>
+                </ul> 
+            </div>
+            <Switch>
+              <Route exact path="/">
+                <Cover/>
+              </Route>
+              <Route exact path="/contact">
+                <Contact/>
+              </Route>
+              <Route exact path="/projects">
+                <Projects/>
+              </Route>
+              <Route exact path="/about">
+                <About/>
+              </Route>
+          </Switch>
     </div>
+    </Router>
   );
 }
 

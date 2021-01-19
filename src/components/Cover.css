@@ -1,0 +1,56 @@
+.cover{
+    width: 100%;
+    flex: 1;
+  
+
+}
+.sec_title{
+    overflow :hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.sec_title p {
+    font-family: 'Bodoni Moda', serif;
+    flex: 1;
+    font-size: 16vw;
+    letter-spacing: -.014em;
+    margin-top: 10px;
+    line-height: .9;
+    text-align: justify;
+    width: 100%;
+
+
+   
+
+}
+#sec1_line2{
+    margin-left: 1vw;
+}
+#sec1_line1{
+    margin-left: -4vw;
+    overflow: hidden;
+    position: static;
+    z-index: -10;
+  
+}
+ .sec2{
+     color: #696969;
+     margin-top: 2vw;
+    line-height: 2;
+    font-weight: 400;
+    font-size: 1.5vw;
+    letter-spacing: _.014em;
+    margin-left: 2vw;
+    font-family: 'Cormorant', serif;
+    
+ }
+ img{
+     position: fixed;
+     z-index: -10;
+     top: 65%;
+     right: 2%;
+     width: 40%;
+    
+
+  
+ }
