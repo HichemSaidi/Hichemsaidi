@@ -44,13 +44,21 @@
     font-family: 'Cormorant', serif;
     
  }
- img{
+ .sec_title img{
      position: fixed;
      z-index: -10;
      top: 65%;
      right: 2%;
      width: 40%;
-    
-
-  
  }
+ 
+ .example-enter {
+    opacity: 0.2;
+    transition: opacity 300ms ease-in;
+    background:  #f9e79f;
+  }
+   
+  .example-enter .example-enter-active {
+    opacity: 1;
+    background:  #eafaf1 ;
+  }

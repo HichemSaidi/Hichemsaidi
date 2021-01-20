@@ -8,7 +8,7 @@ import About from './components/About.js'
 
 
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Switch,
   Route,
   Link
@@ -16,7 +16,7 @@ import {
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL} >
+    <Router>
     <div className='layout'>
       <div class='nav__list'>
                 <ul>

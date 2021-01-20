@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Landing from './Landing'
 import './Cover.css'
+import { TransitionGroup, CSSTransition } from "react-transition-group";
 
 
 export class Cover extends Component {
@@ -8,6 +9,7 @@ export class Cover extends Component {
         return (
             <div className="cover">
                 <Landing></Landing>
+              
                 <div className='sec_title'>
                     <p id="sec1_line1">CREATIVE</p>
                     <p id="sec1_line2">DEVELOPER</p>
@@ -18,7 +20,8 @@ export class Cover extends Component {
                     <p>intraction animation  accesibilty olso backend developpement <br></br>
                     available for full time hire </p>               
                 </div>
-             
+            
+            
                
                 
             </div>

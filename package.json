@@ -1,17 +1,22 @@
 {
-  "homepage": "https://github.com/HichemSaidi/layersofcode/",
+  "homepage": "http://layersofcode.fr/",
   "name": "layersofcode",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.0",
+    "font-awesome": "^4.7.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4"
+    "react-transition-group": "^4.4.1",
+    "web-vitals": "^0.2.4",
+    "webpack": "^4.44.2"
   },
   "scripts": {
     "predeploy": "npm run build",

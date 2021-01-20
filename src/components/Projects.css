@@ -1,0 +1,17 @@
+.sec_2_project{
+    flex:1;
+    color: #696969;
+    margin-top: 2vw;
+   line-height: 2;
+   font-weight: 400;
+   font-size: 1.5vw;
+   letter-spacing: _.014em;
+   margin-left: 2vw;
+   font-family: 'Cormorant', serif;
+   align-self: center;
+   text-align: center;
+}
+.sec_2_project p {
+   margin-left: -20vh;
+
+}
