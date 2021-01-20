@@ -1,17 +1,72 @@
-.sec_2_project{
-    flex:1;
-    color: #696969;
-    margin-top: 2vw;
-   line-height: 2;
-   font-weight: 400;
-   font-size: 1.5vw;
-   letter-spacing: _.014em;
-   margin-left: 2vw;
-   font-family: 'Cormorant', serif;
-   align-self: center;
-   text-align: center;
-}
-.sec_2_project p {
-   margin-left: -20vh;
 
+.sec_layout{
+  width: 100%;
+}
+.projects_content{
+   width: 100%;
+   display: grid;
+   grid-template-columns: 420px 420px 420px;
+   grid-auto-columns: 200px;
+   overflow: scroll;
+   grid-column-gap: 3px;
+  
+}
+.projects_content img{
+   width: 90%;
+}
+.box1{
+border-left: 3px solid black;
+border-right: 3px solid black;
+animation-name: slide;
+animation-duration: 500ms;
+position: sticky;
+}
+.box2{
+   border-right: 3px solid black;
+   animation-name: slide;
+   animation-duration: 500ms;
+   animation-delay: 100ms; 
+}
+.box3{
+   border-right: 3px solid black;
+   animation-name: slide;
+   animation-duration: 500ms;   
+   animation-delay: 200ms; 
+}
+
+.box_flex {
+   min-width: 300px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+  
+}
+.faded{
+animation-name: apear;
+animation-duration: 4s;   
+}
+.faded::before{
+display: none;
+overflow: hidden;
+}
+
+.faded::after{
+   display: inline;
+   }
+@keyframes slide {
+   from { transform:translateY(-100vh) }
+   to { transform:translateY(0vh)  }
+   
+}
+
+@keyframes apear{
+   from {   opacity: 0; 
+      visibility: hidden;
+         }
+   to { opacity: 1;
+      visibility: visible; }
+    
+   
 }

@@ -21,12 +21,12 @@ function App() {
       <div class='nav__list'>
                 <ul>
                     <li><Link className="link" to="/"><button className="btn_square"></button></Link></li>
-                    <li><Link className="link" to="/"><p>WORK</p></Link></li>
-                    <li><Link className="link" to="/about">ABOUT</Link></li>
-                    <li><Link className="link" to="/projects">PROJECTS</Link></li>
-                    <li><Link className="link" to="/contact">CONTACT</Link></li>
+                    <li><Link className="link" to="/about"><p>ABOUT</p></Link></li>
+                    <li><Link className="link" to="/projects"><p>PROJECTS</p></Link></li>
+                    <li><Link className="link" to="/contact"><p>CONTACT</p></Link></li>
                 </ul> 
             </div>
+           
             <Switch>
               <Route exact path="/">
                 <Cover/>
@@ -41,6 +41,7 @@ function App() {
                 <About/>
               </Route>
           </Switch>
+          
     </div>
     </Router>
   );

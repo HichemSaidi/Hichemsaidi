@@ -8,6 +8,7 @@
     overflow :hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+ 
 }
 .sec_title p {
     font-family: 'Bodoni Moda', serif;
@@ -17,33 +18,32 @@
     margin-top: 10px;
     line-height: .9;
     text-align: justify;
-    width: 100%;
-
-
-   
-
+    width: 100%; 
+    animation: Roll 5s infinite alternate; 
 }
 #sec1_line2{
     margin-left: 1vw;
+    
 }
 #sec1_line1{
     margin-left: -4vw;
     overflow: hidden;
     position: static;
-    z-index: -10;
-  
+    z-index: -10; 
+   
 }
  .sec2{
-     color: #696969;
+     color:rgb(32, 32, 32);
      margin-top: 2vw;
     line-height: 2;
-    font-weight: 400;
-    font-size: 1.5vw;
+    font-weight: 600;
+    font-size: 1.6vw;
     letter-spacing: _.014em;
     margin-left: 2vw;
     font-family: 'Cormorant', serif;
     
  }
+
  .sec_title img{
      position: fixed;
      z-index: -10;
@@ -62,3 +62,15 @@
     opacity: 1;
     background:  #eafaf1 ;
   }
+
+
+@keyframes Roll {
+    from { transform: translateX(30px);}
+    to {  transform: translateX(-10px)}
+    
+ }
+ @keyframes Roll {
+    from { transform: translateX(-10px);}
+    to {  transform: translateX(30px);}
+    
+ }
