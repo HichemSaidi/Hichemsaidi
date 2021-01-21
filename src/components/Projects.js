@@ -11,8 +11,8 @@ export class Projects extends Component {
 
              <div className="box1 box_flex">
                  <div className="faded">
-                 <h1>ColorView</h1>
-                 <img src="https://github.com/HichemSaidi/punch/raw/master/images/demo.png"></img>
+                 <h1>Custom weather</h1>
+                 <img src="https://github.com/HichemSaidi/custom_weather/raw/master/img/weather_forecast2.gif"></img>
                  <p>Relased on November 2019</p>
                  <p> this project is a static website using flexbox</p>
                  </div>
@@ -21,8 +21,8 @@ export class Projects extends Component {
              <div className="box2 box_flex">
              <div className="faded">
 
-             <h1>ColorView</h1>
-                 <img src="https://github.com/HichemSaidi/punch/raw/master/images/demo.png"></img>
+             <h1>Movie Reactjs Web App</h1>
+                 <img src="https://github.com/HichemSaidi/movie-app/raw/master/img/vokka-App.gif"></img>
                  <p>Relased on November 2019</p>
                  <p> this project is a static website using flexbox</p>
              </div>
@@ -31,7 +31,7 @@ export class Projects extends Component {
              <div className="box3 box_flex">
              <div className="faded">
 
-             <h1>ColorView</h1>
+             <h1>Punch Intregraion</h1>
                  <img src="https://github.com/HichemSaidi/punch/raw/master/images/demo.png"></img>
                  <p>Relased on November 2019</p>
                  <p> this project is a static website using flexbox</p>
