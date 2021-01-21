@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './Contact.css'
-import Landing from './Landing'
+
 
 
 export class Contact extends Component {
